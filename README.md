@@ -8,6 +8,10 @@ Descubra conexões entre diferentes entidades.
 python teia.py sample.csv
 ```
 
+Ao executar esse comando, esse simples script criará um arquivo `.gml`,
+com um grafo contendo as informações preenchidas no `.csv` informado.
+O arquivo `.gml` pode ser importado em programas como Gephi e Cytoscape.
+
 ## Fonte de dados
 
 As duas primeiras colunas serão os nós que formarão uma aresta.
